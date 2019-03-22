@@ -26,7 +26,7 @@
 		var docViewBottom = docViewTop + $(window).height();
 		var elemTop = $(elem).offset().top;
 		var elemBottom =elemTop +  $(elem).height();
-		if((elemBottom + 100 >= docViewTop) && (elemTop - 100 <= docViewTop)){
+		if((elemBottom>= docViewTop) && (elemTop <= docViewTop)){
 			$(elem+"_bn").css({'color':'blue'});
 			// console.log(elemBottom +" " + docViewBottom+ "  "+String(elemTop)+" "+ docViewTop);
 		}
@@ -37,10 +37,11 @@
 	}
 	$(document).scroll(function(){
 	isInView('#about');
-	isInView('#services');
-	isInView('#portfolio');
+	isInView('#projects');
+	isInView('#education');
 	isInView('#contact');
 	isInView('#home');
+	isInView('#workex');
 	});
 	// isInView(elem);
 	// isInView(elem);
