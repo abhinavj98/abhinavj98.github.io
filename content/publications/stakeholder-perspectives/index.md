@@ -21,4 +21,18 @@ abstract: 'Integrating Stakeholder Perspectives into Robot Pruning Designs'
 hugoblox:
   ids:
     doi: ''
+
+links:
+  - type: pdf
+    url: '#'
+
+image:
+  caption: '[Placeholder] Featured Image: Please upload a featured image here.'
+  focal_point: 'Center'
+  preview_only: false
+
 ---
+## Image Placeholder
+Please provide an image or diagram related to the stakeholder perspectives in robot pruning designs.
+
+{{< figure src="featured.jpg" caption="Placeholder: Stakeholder Integration" >}}

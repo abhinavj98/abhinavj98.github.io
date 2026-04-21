@@ -23,4 +23,18 @@ abstract: 'SRTGAN: Triplet Loss based Generative Adversarial Network for Real-Wo
 hugoblox:
   ids:
     doi: ''
+
+links:
+  - type: pdf
+    url: '#'
+
+image:
+  caption: '[Placeholder] Featured Image: Please upload a featured image here.'
+  focal_point: 'Center'
+  preview_only: false
+
 ---
+## Diagram Placeholder
+Please provide a diagram or sample images illustrating the SRTGAN pipeline.
+
+{{< figure src="featured.jpg" caption="Placeholder: SRTGAN Architecture" >}}

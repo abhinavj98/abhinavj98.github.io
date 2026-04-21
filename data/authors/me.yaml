@@ -53,16 +53,17 @@ education:
   - degree: MS in Robotics, Minor in AI
     institution: Oregon State University
     start: 2021
-    end: 2023
+    end: 2026
     summary: |
       Advisors: Dr. Cindy Grimm and Dr. Stefan Lee.
-      GPA: 4.0
+      GPA: 4.0/4.0
   - degree: B.Tech Electronics and Communication Engineering
     institution: Sardar Vallabhbhai National Institute of Technology
     start: 2016
     end: 2020
     summary: |
-      Capstone: Birding - GANs to convert text descriptions to bird images.
+      Seminar: Generative techniques to generate artificial datasets
+      Capstone: Birding - Generative Adversarial Networks to convert text description to bird images. (Language conditioned Image generation)
 
 experience:
   - role: Graduate Research Assistant
@@ -92,6 +93,12 @@ experience:
     end: 2021-01-31
     summary: |
       Adapted state-of-the-art models of Image Inpainting in PyTorch to Dynamic to Static LiDAR Reconstruction. Proposed "LiDAR Quality Index" metric.
+  - role: President
+    org: Robotics Grad Student Association @OSU
+    start: 2023-01-01
+    end: 2024-12-31
+    summary: |
+      Led the Robotics Grad Student Association.
 
 skills:
   - name: Technical Skills

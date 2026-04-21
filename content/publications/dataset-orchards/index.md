@@ -20,4 +20,18 @@ abstract: 'A Dataset for Semantic and Instance Segmentation of Modern Fruit Orch
 hugoblox:
   ids:
     doi: ''
+
+links:
+  - type: pdf
+    url: '#'
+
+image:
+  caption: '[Placeholder] Featured Image: Please upload a featured image here.'
+  focal_point: 'Center'
+  preview_only: false
+
 ---
+## Diagram Placeholder
+Please provide a diagram or sample images showing the synthetic data generation and automatic labeling using SAM2 and YOLO.
+
+{{< figure src="featured.jpg" caption="Placeholder: Synthetic Data Generation Pipeline" >}}

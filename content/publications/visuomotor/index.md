@@ -19,4 +19,23 @@ abstract: 'Visuomotor Robotic Pruning in Planar Orchards Using Hybrid Reinforcem
 hugoblox:
   ids:
     doi: ''
+
+# Replace your current links block with this:
+links:
+  - type: pdf
+    url: '#'
+  - type: video
+    url: '#'
+
+# Featured image
+# Ensure your graphical abstract is named `featured.jpg` or `featured.png` in this folder
+image:
+  caption: '[Placeholder] Graphical Abstract: Please upload a featured image here.'
+  focal_point: 'Center'
+  preview_only: false
+
 ---
+## Architecture Diagram Placeholder
+Please provide an architecture diagram showing the hybrid RL pipeline (PPO, Stable Baseline 3, SKRL).
+
+{{< figure src="featured.jpg" caption="Placeholder: Visuomotor Robotic Pruning Pipeline" >}}
