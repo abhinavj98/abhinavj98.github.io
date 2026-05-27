@@ -38,6 +38,29 @@ sections:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
+    id: robots-in-action
+    content:
+      title: '🤖 Robots in Action'
+      subtitle: 'See my robots working in simulation and the real world'
+      text: |-
+        {{< youtube 78LGGPcMVyQ >}}
+        **Robotic Tree Pruning (ICRA 2025)** — Visuomotor controller guiding a UR5 to prune branches in a real V-Trellis apple orchard, zero-shot transfer from simulation.
+
+        ---
+
+        <!-- PLACEHOLDER: Replace VIDEO_ID_2 with your YouTube video ID for the apple-picking / dexterous manipulation demo -->
+        <!-- {{< youtube VIDEO_ID_2 >}} -->
+        <!-- **Dexterous Apple Picking** — Tactile force-based policy on Franka FR3 for deformable object manipulation. -->
+
+        ---
+
+        <!-- PLACEHOLDER: Replace VIDEO_ID_3 with your YouTube video ID for the Fetch Robot Scavenger Hunt -->
+        <!-- {{< youtube VIDEO_ID_3 >}} -->
+        <!-- **Fetch Robot Scavenger Hunt** — Industrial Fetch Robot autonomously completing a scavenger hunt. -->
+    design:
+      columns: '1'
+
+  - block: markdown
     content:
       title: '📚 My Research'
       subtitle: ''

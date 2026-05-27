@@ -10,7 +10,7 @@ links:
   - icon: book-open
     icon_pack: fas
     name: Blog Post
-    url: "#"
+    url: "https://medium.com/analytics-vidhya/predicting-upcoming-corona-hotspots-dd6c405c9c77"
 
 image:
   caption: '[Placeholder] Analytics Vidhya Blog'
