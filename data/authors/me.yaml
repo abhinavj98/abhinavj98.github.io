@@ -14,9 +14,12 @@ status:
   icon: "🤖"
 role: PhD Candidate in Robotics
 bio: |
-  Abhinav Jain is a PhD Candidate in Robotics at Oregon State University,
-  minoring in Artificial Intelligence. His research focuses on designing complex simulations
-  and learning-based control methods.
+  Soon-to-be Ph.D. graduate in Robotics and AI researcher specializing in robotic mamipulation. Skilled in complex simulation design
+  using Isaac Sim and Isaac Lab, and sim-to-real transfer for unstructured, real-world orchard environments.
+  Expertise in creating novel RL algorithms, applying Deep Reinforcement Learning and Imitation Learning to deploy robust manipulation
+  policies on physical robotic platforms. Recognized for research contributions in top-tier conferences
+  (ICRA, CVPR, AAAI), with proven experience in synthetic data generation and training RL, generative AI,
+  and Large Language Models (LLMs).
   
 affiliations:
   - name: Oregon State University
@@ -35,8 +38,11 @@ interests:
   - Deep Reinforcement Learning
   - Imitation Learning
   - Sim-to-Real Transfer
+  - Dexterous Manipulation
+  - Synthetic Data Generation
   - Agricultural Robotics
   - Computer Vision
+  - Large Language Models
 
 education:
   - degree: PhD Robotics, Minor in AI
@@ -66,11 +72,11 @@ education:
       Capstone: Birding - Generative Adversarial Networks to convert text description to bird images. (Language conditioned Image generation)
 
 experience:
-  - role: Graduate Research Assistant
+  - role: Graduate Research Assistant — Robotic Manipulation & Control
     org: Oregon State University
     start: 2021-12-01
     summary: |
-      Built a learning pipeline for robotic tree-pruning and dexterous apple-picking. Applied Deep RL (PPO) for a UR5 manipulator using Stable Baseline 3 and SKRL. Developed a novel hybrid RL method incorporating suboptimal expert data. Built a procedural tree generation tool for sim-to-real gap bridging.
+      Engineered a comprehensive learning pipeline for complex robotic manipulation utilizing simulation design, reinforcement learning, and synthetic data generation. Formulated a novel hybrid RL method integrating suboptimal expert data, outperforming naive PPO and Imitation Learning baselines by a statistically significant 6%. Trained and deployed a visual servoing policy for a UR5 using Deep RL (PPO), achieving >50% success in unstructured physical environments. Improved target fruit detection accuracy by 27% (96% success rate) using SAM2 and a custom YOLO model. Deployed policies via ROS2 and MoveIt!, reducing experimentation time by 80% via Behavior Trees.
     button:
       text: View resume
       url: /uploads/resume_1.pdf
@@ -80,46 +86,66 @@ experience:
     start: 2025-06-01
     end: 2025-09-30
     summary: |
-      Building the future of Agricultural Robots. Deformable object simulation in Isaac Sim. Image auto-labelling using SAM2 and YOLO.
+      Developed scalable robotic simulation pipelines utilizing NVIDIA Isaac Sim and Isaac Lab for autonomous agricultural systems.
   - role: Engineer
-    org: Samsung Research Institute
+    org: Samsung Research Institute, Bangalore
     start: 2021-01-01
     end: 2021-08-31
     summary: |
-      Engineer in 5G NR MAC team. Wrote Unit Tests and Block Tests according to Google Test framework, increasing test coverage. Awarded Software Professional Certification for DSA skills.
+      Developed network solutions on the 5G NR MAC team. Increased test coverage metric from 2.1 to 3.2 (exceeding required threshold of 3.0) using the Google Test framework. Earned the Software Professional Certification for proficiency in Data Structures and Algorithms.
   - role: Research Intern
-    org: RBCCPS LAB, IISc
+    org: RBCCPS LAB, Indian Institute of Science (IISc)
     start: 2020-07-01
     end: 2021-01-31
     summary: |
-      Adapted state-of-the-art models of Image Inpainting in PyTorch to Dynamic to Static LiDAR Reconstruction. Proposed "LiDAR Quality Index" metric.
+      Adapted state-of-the-art Image Inpainting models in PyTorch to Dynamic to Static LiDAR Reconstruction. Evaluated reconstruction quality by executing SLAM on reconstructed LiDAR output using ROS. Formulated the "LiDAR Quality Index" metric to rank LiDAR frame quality without reference ground truth.
   - role: President
-    org: Robotics Grad Student Association @OSU
+    org: Robotics Grad Student Association, OSU
     start: 2023-01-01
     end: 2024-12-31
     summary: |
-      Led the Robotics Grad Student Association.
+      Directed the student organization for the 2023-2024 academic year, coordinating events and advocating for graduate students.
 
 skills:
-  - name: Technical Skills
+  - name: Languages
     items:
       - label: Python
         level: 5
       - label: C/C++
         level: 4
-      - label: PyTorch
-        level: 5
-      - label: ROS2
-        level: 4
-      - label: Reinforcement Learning
-        level: 5
-  - name: Libraries & Tools
-    items:
       - label: Git
         level: 5
-      - label: OpenCV
+  - name: Simulation
+    items:
+      - label: NVIDIA Isaac Sim
+        level: 5
+      - label: Isaac Lab
+        level: 5
+      - label: PyBullet
+        level: 5
+      - label: Newton Physics Engine
+        level: 4
+  - name: Frameworks
+    items:
+      - label: ROS2
+        level: 5
+      - label: PyTorch
+        level: 5
+      - label: TensorFlow
         level: 4
       - label: MoveIt!
+        level: 4
+      - label: W&B
+        level: 4
+  - name: Libraries
+    items:
+      - label: OpenCV
+        level: 5
+      - label: NumPy
+        level: 5
+      - label: pandas
+        level: 4
+      - label: Matplotlib
         level: 4
 
 languages:
@@ -128,16 +154,21 @@ languages:
     label: Fluent
   - name: Hindi
     level: 5
-    label: Fluent
+    label: Native
 
 awards:
-  - title: Runners up
+  - title: Runner-Up
     awarder: DotSlash Hackathon
     date: "2020-01-01"
-    summary: Jyoti - An assistant for people with vision impairment.
+    summary: Led team to Runner-Up position by developing "Jyoti," an AI-driven accessibility assistant for visually impaired users.
     icon: hero/trophy
-  - title: 12th Rank
-    awarder: Robocon 2020
-    date: "2020-01-01"
-    summary: Secured 12th rank out of 120 participating teams.
+  - title: 12th Place — Motion Planning Lead
+    awarder: ABU Robocon 2020
+    date: "2020-03-01"
+    summary: Guided the autonomous motion team to 12th place out of 120 international teams.
     icon: hero/trophy
+  - title: Software Professional Certification
+    awarder: Samsung Research Institute
+    date: "2021-06-01"
+    summary: Awarded for demonstrated proficiency in Data Structures and Algorithms.
+    icon: hero/academic-cap
