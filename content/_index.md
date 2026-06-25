@@ -73,7 +73,7 @@ sections:
 
         ---
 
-        {{< video src="/uploads/fetch_final.mp4" controls="yes" >}}
+        {{< video src="fetch_final.mp4" controls="yes" >}}
         **Fetch Robot Scavenger Hunt** — Industrial Fetch Robot autonomously completing a scavenger hunt.
     design:
       columns: '1'
