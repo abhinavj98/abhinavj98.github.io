@@ -48,15 +48,33 @@ sections:
 
         ---
 
-        <!-- PLACEHOLDER: Replace VIDEO_ID_2 with your YouTube video ID for the apple-picking / dexterous manipulation demo -->
-        <!-- {{< youtube VIDEO_ID_2 >}} -->
-        <!-- **Dexterous Apple Picking** — Tactile force-based policy on Franka FR3 for deformable object manipulation. -->
+        {{< youtube YtVaW6SMR0k >}}
+        **Field Trials** — Field trials of a simulation learned visuomotor policy using RL.
 
         ---
 
-        <!-- PLACEHOLDER: Replace VIDEO_ID_3 with your YouTube video ID for the Fetch Robot Scavenger Hunt -->
-        <!-- {{< youtube VIDEO_ID_3 >}} -->
-        <!-- **Fetch Robot Scavenger Hunt** — Industrial Fetch Robot autonomously completing a scavenger hunt. -->
+        {{< youtube fRsxdJJvEno >}}
+        **Orchard Simulation** — Simulation of an apple fruiting system using AVBD solver.
+
+        ---
+
+        {{< youtube LQ09N1oXV30 >}}
+        **Stochastic Growth Model** — Stochastic growth of trees for Envy Apple orchards.
+
+        ---
+
+        {{< youtube zMSO-PgE44Q >}}
+        **Robocon 2018** — League Match: Sanjavini COE vs SVNIT, Surat.
+
+        ---
+
+        {{< youtube 0jGdmhNiR60 >}}
+        **Robotic Tree Pruning** — The robot that learned to prune trees.
+
+        ---
+
+        {{< video src="/uploads/fetch_final.mp4" controls="yes" >}}
+        **Fetch Robot Scavenger Hunt** — Industrial Fetch Robot autonomously completing a scavenger hunt.
     design:
       columns: '1'
 
