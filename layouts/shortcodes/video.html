@@ -1,0 +1,31 @@
+{{ $src := .Get "src" }}
+{{ $controls := .Get "controls" | default "yes" }}
+{{ $autoplay := .Get "autoplay" | default "no" }}
+{{ $loop := .Get "loop" | default "no" }}
+{{ $muted := .Get "muted" | default "no" }}
+
+{{/* Try to find the video in Page Resources */}}
+{{ $asset := .Page.Resources.GetMatch $src }}
+
+{{/* If not found in page resources, try to find it in global assets */}}
+{{ if not $asset }}
+  {{ $asset = resources.Get $src }}
+{{ end }}
+{{ if not $asset }}
+  {{ $asset = resources.Get (printf "media/%s" $src) }}
+{{ end }}
+
+<video
+  {{ if eq $controls "yes" }}controls{{ end }}
+  {{ if eq $autoplay "yes" }}autoplay{{ end }}
+  {{ if eq $loop "yes" }}loop{{ end }}
+  {{ if or (eq $autoplay "yes") (eq $muted "yes") }}muted{{ end }}
+  style="max-width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 8px;"
+>
+  {{ if $asset }}
+    <source src="{{ $asset.RelPermalink }}" type="{{ $asset.MediaType.Type }}">
+  {{ else }}
+    <source src="{{ $src | relURL }}">
+  {{ end }}
+  Your browser does not support the video tag.
+</video>
