@@ -43,6 +43,11 @@ sections:
       title: '🤖 Robots in Action'
       subtitle: 'See my robots working in simulation and the real world'
       text: |-
+        {{< youtube AjlBe6A0xdo >}}
+        **Visuomotor Robotic Pruning — IEEE TFR 2026** — End-to-end pipeline using Hybrid-PPO and optical flow for zero-shot sim-to-real transfer; 71% success on V-Trellis apples across 28 outdoor field trials in commercial orchards.
+
+        ---
+
         {{< youtube 78LGGPcMVyQ >}}
         **Robotic Tree Pruning (ICRA 2025)** — Visuomotor controller guiding a UR5 to prune branches in a real V-Trellis apple orchard, zero-shot transfer from simulation.
 
